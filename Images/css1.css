@@ -1,0 +1,155 @@
+/* section 8 */
+/*Abdulla Jamal 20195094 */
+/* Albader mohsen 20191367*/
+
+body {
+    font-family: Arial, sans-serif;                        /* Abdulla */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ffcc00;
+    color: #fff;
+    text-align: center;                                /* Abdulla */
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 0.5em 0;                        /* Abdulla */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;                                 /* Abdulla */
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;                                /* Abdulla */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;                      /* Abdulla */
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+.class-info2 {                                        /* Abdulla */
+    padding: 2em;
+    text-align: left;
+}
+
+        .container1 {
+            display: flex;
+            align-items: center;
+        }                                              /* Abdulla */
+        .container img {
+            margin-right: 20px;
+        }
+
+.class-info {
+    padding: 2em;
+    text-align: center;           /* Abdulla */
+}
+
+.gallery {
+    padding: 2em;
+    text-align: center;                    
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;                              /* Abdulla */
+    justify-content: center;
+    gap: 1em;
+}
+
+.gallery-container figure {
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 8px;                    /* Abdulla */
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 150px;                                /* Albader */
+    object-fit: cover;
+}
+
+.gallery-container figcaption {
+    padding: 0.5em;
+    background-color: #fff;                         /* Albader */
+    font-size: 0.9em;
+    color: #333;
+}
+
+.comments {
+    padding: 2em;
+    text-align: center;                          /* Albader */
+}
+
+.comments form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;                                   /* Albader */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.comments form label {
+    text-align: left;                            /* Albader */
+}
+
+.comments form input,
+.comments form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;                  /* Albader */
+    border-radius: 4px;
+}
+
+.comments form button {
+    padding: 0.5em;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    color: #fff;                              /* Albader */
+    cursor: pointer;
+}
+
+.comments form button:hover {
+    background-color: #e6b800;                     /* Albader */
+}
+
+#comment-list {
+    margin-top: 2em;
+    text-align: left;                             /* Albader */
+}
+
+#comment-list .comment {
+    border-bottom: 1px solid #ddd;                   /* Albader */
+    padding: 1em 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;                             /* Abdulla */
+    padding: 0.3em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
